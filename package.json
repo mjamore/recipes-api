@@ -1,0 +1,11 @@
+{
+  "name": "recipes-api",
+  "version": "1.0.0",
+  "description": "This is a backend API built in NodeJS that allows the reading, writing, updating, and deleting of recipe data from a Mongo database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michael Amore",
+  "license": "ISC"
+}
