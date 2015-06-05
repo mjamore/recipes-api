@@ -7,5 +7,12 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Michael Amore",
-  "license": "ISC"
+  "license": "ISC",
+  "respository": {
+    "type": "git",
+    "url": "https://github.com/mjamore/recipes-api"
+  },
+  "dependencies": {
+    "express": "^4.12.4"
+  }
 }
