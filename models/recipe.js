@@ -6,6 +6,7 @@ var mongoose = restful.mongoose;
 // Schema
 var receipeSchema = new mongoose.Schema({
 	name: String,
+	author: String,
 	category: String,
 	tags: [String],
 	time: {
