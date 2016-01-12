@@ -20,7 +20,7 @@ var receipeSchema = new mongoose.Schema({
 			quantity: String,
 			measure: String,
 			preparation: String
-		}, {_id: false}
+		}
 	],
 	directions: String,
 	images: [String]
