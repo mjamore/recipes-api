@@ -19,9 +19,8 @@ var receipeSchema = new mongoose.Schema({
 			ingredient: String,
 			quantity: String,
 			measure: String,
-			preparation: String,
-			_id: false
-		}
+			preparation: String
+		}, {_id: false}
 	],
 	directions: String,
 	images: [String]
